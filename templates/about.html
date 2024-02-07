@@ -2,12 +2,16 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>My Website - About</title> 
+        <title>My Website - About</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
     </head>
     <body>
-        <h1>Ezra Muir</h1>
-        <p>
-            Hello, I’m Ezra, a Computer Science major student who is passionate about creating innovative solutions for real-world problems. Outside work, I’m into reading, fitness, and travelling. One of my goals is to travel to all seven continents and see the wonders of the world.
-        </p>
+        <div class='container'>
+            <h1>Ezra Muir</h1>
+            <p>
+                Hello, I’m Ezra, a Computer Science major student who is passionate about creating innovative solutions for real-world problems. Outside work, I’m into reading, fitness, and travelling. One of my goals is to travel to all seven continents and see the wonders of the world.
+            </p>
+            <img src="{{ url_for('static', filename='travel.jpg') }}" />
+        </div>
     </body>
 </html>

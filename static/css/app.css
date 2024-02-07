@@ -8,3 +8,13 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
+
+h1 {
+  text-decoration: underline;
+  color: rgb(88, 174, 255);
+}
+
+img {
+  width: 720px;
+  object-fit: contain;
+}
